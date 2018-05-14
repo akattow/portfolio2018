@@ -1,0 +1,14 @@
+{{ define "main" }}
+        <!-- {{ partial "projects_main.html" . }}
+        {{ partial "testimonial.html" . }} -->
+
+        <section>
+            <div>
+                {{ .Content }}
+            </div>
+        </section>
+
+        <!-- {{ if .Site.Params.projects.enable }}
+        {{ partial "projects.html" . }}
+        {{ end }} -->
+{{end}}

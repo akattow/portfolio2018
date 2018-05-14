@@ -1,0 +1,56 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Kat Tow"
+googleAnalytics = "UA-XXXXXXXX-Y"
+
+[params]
+    theme_color = "#008593"
+    description = "Portfolio of Kat Tow, UX/LX Designer"
+    description_photo = "portfolio.jpg"
+    favicon = "favicon.png"
+    logo = "logo.png"
+    email = "kattow88@gmail.com"
+    linkedin = "https://www.linkedin.com/in/kattow/"
+
+
+[params.hero]
+    enable = true
+    avatar = "avatar.jpg"
+    subtitle = "Hi! I'm Kat, a UX/LX Developer in Milwaukee."
+    typed = "I'm passionate about "
+
+    hero_right = ["**Currently developing responsive e-learning and designing interactive and blended learning experiences at the International Foundation for Employee Benefit Plans.**", "I'm a left-brain/right-brain hybrid type. I'm also a self-taught front-end developer and user experience designer with a professional background in visual and graphic design.", "I love developing digital experiences that help people explore, learn, and grow. Now, I use my expertise in user-centered design and development to create meaningful learning and educational products.", "Technical toolset: HTML, CSS/Sass/Less, JavaScript, jQuery, Adapt Learning Framework, Hugo, and Bootstrap.", "Creative toolset: Adobe Creative Suite, including Adobe XD, Illustrator, Photoshop, InDesign, and Adobe Premier. Experience using Sketch, Figma, and Axure for wireframing, design, and prototyping."]
+
+    resume = "ResumeTow.pdf"
+
+[params.process]
+    enable = true
+    title = "My Work"
+    subtitle = "Design & Development"
+
+[params.projects]
+    enable = false
+    title = "Projects"
+    subtitle = "Selected Work"
+
+
+
+[[menu.main]]
+    name = "about me"
+    url  = "/about"
+    weight = 1
+
+[[menu.main]]
+    name = "my work"
+    url  = "/work"
+    weight = 2
+
+[[menu.main]]
+    name = "my blog"
+    url  = "/blog"
+    weight = 3
+
+[[menu.main]]
+    name = "say hi"
+    url  = "/contact"
+    weight = 4

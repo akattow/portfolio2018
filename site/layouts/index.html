@@ -1,0 +1,18 @@
+{{ define "main" }}
+        <div>
+            
+            {{ if .Site.Params.hero.enable }}
+            {{ partial "hero.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.process.enable }}
+            {{ partial "process.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.projects.enable }}
+            {{ partial "projects.html" . }}
+            {{ end }}
+
+        </div>
+
+{{end}}

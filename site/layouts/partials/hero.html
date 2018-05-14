@@ -1,0 +1,31 @@
+<section style="padding-top: 120px;" id="scroll-element" data-scroll-index="0">
+    <div class="hero">
+        <div class="hero-left">
+            <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.Hero.Avatar }}" style="max-width: 50%; border-radius: 50%; ">
+            <h2 class="subtitle">{{ .Site.Params.Hero.subtitle }}</h2>
+            <h3 class="typed">{{ .Site.Params.Hero.typed }}<br><span class="element"></span></h3>
+            <div class="icons">
+                {{ if isset .Site.Params "email" }}
+                <a href="mailto:{{ .Site.Params.Email }}">Email</a>
+                {{ end }}
+                {{ if isset .Site.Params "twitter" }}
+                <a href="https://twitter.com/a{{ .Site.Params.Twitter }}" target="blank">Twitter</a>
+                {{ end }}
+                {{ if isset .Site.Params "linkedin" }}
+                <a href="{{ .Site.Params.LinkedIn }}" target="blank">LinkedIn</a>
+                {{ end }}
+                {{ if isset .Site.Params "medium" }}
+                <a href="https://medium.com/@{{ .Site.Params.Medium }}" target="blank">Medium
+                </a>
+                {{ end }}
+                <a href="{{ .Site.BaseURL }}{{ .Site.Params.Hero.Resume }}" target="blank" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'download'});">
+                Resume</a>
+            </div>
+        </div>
+        <div class="hero-right">
+            {{ range $paragraph := .Site.Params.Hero.hero_right }}
+                <p>{{ $paragraph | markdownify }}</p>
+            {{ end }}
+        </div>
+    </div>
+</section>
