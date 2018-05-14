@@ -98,21 +98,6 @@ footer a {
   border-left: 1px solid #F0F0F0;
 }
 
-.icons a:first-child {
-  padding: 4px 10px 4px 0;
-}
-
-.icons a {
-  padding: 4px 10px;
-  color: #008593;
-}
-
-.icons a:hover {
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
-  color: #5A54AF;
-}
-
 @media all and (max-width: 460px) {
   .main-navigation-link {
     font-size: 13px;
@@ -177,58 +162,6 @@ section {
 .hi {
   font-size: 42px;
   line-height: 0.4em;
-}
-
-.subtitle {
-  font-size: 28px;
-  color: #137682;
-  font-weight: 300;
-}
-
-.typed {
-  font-size: 24px;
-  color: #505A65;
-  font-weight: 300;
-}
-
-.hero-left {
-  max-width: 400px;
-  width: 100%;
-}
-
-.hero-right {
-  width: 500px;
-}
-
-.hero-right p {
-  /* color: #929292; */
-  font-size: 16px;
-  color: #505A65;
-  letter-spacing: 0;
-  /* line-height: 25px; */
-  line-height: 1.8em;
-}
-
-.hero-right em {
-  font-style: normal !important;
-}
-
-.hero-right p a {
-  color: #008593;
-  text-decoration: underline;
-}
-.hero-right p a:hover {
-  color: #5A54AF;
-}
-
-.icons {
-  width: 400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          /*justify-content: space-between;*/
 }
 
 .download-resume {
@@ -480,17 +413,6 @@ section {
   margin-right: 1em;
 }
 
-@media all and (max-width: 981px) {
-  .hero-left {
-    margin: 0 auto;
-    text-align: center;
-  }
-  .hero-left .icons {
-    margin: 0 auto;
-    justify-content: center;
-  }
-}
-
 @media all and (max-width: 842px) {
   .link-div {
     display: block;
@@ -569,19 +491,6 @@ section {
   }
 }
 
-@media all and (max-width:980px) {
-  .hero-right {
-    width: 100%;
-    margin-top: 30px;
-  }
-  .icons {
-    width: 100%;
-  }
-  .process-item {
-    max-width: 45%;
-  }
-}
-
 @media all and (max-width: 728px) {
   .case-study-item {
     max-width: 100%;
@@ -603,9 +512,6 @@ section {
     padding-top: 60px !important;
     padding-bottom: 60px !important;
   }
-  #scroll-element {
-    padding-top: 100px !important;
-  }
 }
 
 @media all and (max-width:500px) {
@@ -618,4 +524,28 @@ section {
   color: #008593 !important;
   transition: 0.2s ease-in-out;
   border-bottom: 3px solid #008593;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          /*justify-content: space-between;*/
+}
+
+.icons a:first-child {
+  padding: 4px 10px 4px 0;
+}
+
+.icons a {
+  padding: 4px 10px;
+  color: #008593;
+}
+
+.icons a:hover {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  color: #5A54AF;
 }
