@@ -17,7 +17,7 @@ googleAnalytics = "UA-XXXXXXXX-Y"
     enable = true
     avatar = "avatar.jpg"
     subtitle = "Hi! I'm Kat."
-    typed = "I'm a UX and Front-End Developer in Milwaukee. I'm passionate about "
+    detail = "I'm a UX and Front-End Developer in Milwaukee."
 
     hero_bottom = ["**Pardon the dust! I am migrating from my first hardcoded portfolio site to a new site built using Hugo. There will be frequent updates and changes to this site throughout May 2018. Check back soon!**",
     "I am currently developing responsive e-learning and designing interactive and blended learning experiences at the International Foundation for Employee Benefit Plans.",
