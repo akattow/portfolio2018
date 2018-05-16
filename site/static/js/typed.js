@@ -137,7 +137,7 @@
 			// Insert cursor
 			if (this.showCursor === true) {
 				this.cursor = document.createElement('span');
-				this.cursor.className = 'typed-cursor';
+				this.cursor.className = 'caret';
 				this.cursor.innerHTML = this.cursorChar;
 				this.el.parentNode && this.el.parentNode.insertBefore(this.cursor, this.el.nextSibling);
 			}
