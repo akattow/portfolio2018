@@ -16,8 +16,9 @@ googleAnalytics = "UA-XXXXXXXX-Y"
 [params.hero]
     enable = true
     avatar = "avatar.jpg"
-    subtitle = "Hi! I'm Kat."
-    detail = "I'm a UX and Front-End Developer in Milwaukee."
+    title = "Hi, my name is "
+    emphasis = "Kat"
+    subtitle = "I'm a UX and Front-End Developer passionate about "
 
     hero_bottom = ["**Pardon the dust! I am migrating from my first hardcoded portfolio site to a new site built using Hugo. There will be frequent updates and changes to this site throughout May 2018. Check back soon!**",
     "I am currently developing responsive e-learning and designing interactive and blended learning experiences at the International Foundation for Employee Benefit Plans.",

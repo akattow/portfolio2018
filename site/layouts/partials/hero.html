@@ -2,8 +2,8 @@
     <div class="hero">
         <div class="hero-top">
             <!-- <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.Hero.Avatar }}" style="max-width: 50%; border-radius: 50%; "> -->
-            <h2 class="subtitle">{{ .Site.Params.Hero.subtitle }}</h2>
-            <h3 class="detail">{{ .Site.Params.Hero.detail }}</h3>
+            <h2 class="title">{{ .Site.Params.Hero.title }}{{ .Site.Params.Hero.emphasis }}.</h2>
+            <h3 class="subtitle">{{ .Site.Params.Hero.subtitle }}<span class="element"></span></h3>
         </div>
         <div class="quicklinks">
             {{ if isset .Site.Params "email" }}
