@@ -1,18 +1,10 @@
 {{ define "main" }}
-        <div>
-            
-            {{ if .Site.Params.hero.enable }}
-            {{ partial "hero.html" . }}
-            {{ end }}
 
-            {{ if .Site.Params.process.enable }}
-            {{ partial "process.html" . }}
-            {{ end }}
-
-            {{ if .Site.Params.projects.enable }}
-            {{ partial "projects.html" . }}
-            {{ end }}
-
-        </div>
+<section>
+    <div class="hello">
+        <h2>{{ .Params.title }}{{ .Params.emphasis }}.</h2>
+        <h3>{{ .Params.subtitle }}<span class="element"></span></h3>
+    </div>
+</section>
 
 {{end}}

@@ -1,5 +1,34 @@
+/*--------------------------------------------------------------
+Home
+--------------------------------------------------------------*/
+
+.home .screen-reader-text:matches (:hover, :active, :focus) {
+  color: white;
+}
+
+.home .content {
+  display: flex;
+  padding-top: 20vh;
+}
+
+.hello {
+  & h2, & h3 {
+    padding: 0;
+  }
+}
+
+/* .hero {
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1000px;
+}
+
 .hero-top {
-  /* max-width: 400px; */
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -43,7 +72,6 @@
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          /*justify-content: space-between;*/
 }
 
 .quicklinks a:first-child {
@@ -67,7 +95,6 @@
   font-size: 16px;
   color: #505A65;
   letter-spacing: 0;
-  /* line-height: 25px; */
   line-height: 1.8em;
 }
 
@@ -95,4 +122,4 @@
   .process-item {
     max-width: 45%;
   }
-}
+} */

@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------
+Top Nav
+--------------------------------------------------------------*/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & figure {
+        margin: 0;
+        @media screen and (min-width: 350px) {}
+    }
+    & ul {
+        list-style: none;
+        -webkit-padding-start: 0;
+        display: flex; 
+        justify-content: flex-end;
+        & li {
+            padding: 0 0.5em;
+            @media screen and (min-width: 350px) {
+                padding: 0 1em;
+            }
+        }
+    }
+}

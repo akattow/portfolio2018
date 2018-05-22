@@ -1,29 +1,25 @@
-<footer>
+<footer class="footer">
     <div class="icons">
         {{ if isset .Site.Params "email" }}
         <a href="mailto:{{ .Site.Params.Email }}">
-            <i class="fa fa-envelope-o"></i>
+            <i class="far fa-envelope"></i>
         </a>
         {{ end }}
         {{ if isset .Site.Params "twitter" }}
         <a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="blank">
-            <i class="fa fa-twitter"></i>
+            <i class="fab fa-twitter"></i>
         </a>
         {{ end }}
         {{ if isset .Site.Params "linkedin" }}
-        <a href="{{ .Site.Params.LinkedIn }}" target="blank">
-            <i class="fa fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/{{ .Site.Params.LinkedIn }}" target="blank">
+            <i class="fab fa-linkedin-in"></i>
         </a>
         {{ end }}
-        {{ if isset .Site.Params "medium" }}
-        <a href="https://medium.com/@{{ .Site.Params.Medium }}" target="blank">
-            <i class="fa fa-medium"></i>
-        </a>
-        {{ end }}
+        {{ if isset .Site.Params "resume" }}
         <a href="{{ .Site.BaseURL }}{{ .Site.Params.Hero.Resume }}" target="blank" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'download'});">
-            <i class="fa fa-file-text-o"></i>
+            <i class="far fa-file-alt"></i>
         </a>
+        {{ end }}
     </div>
 
-    <a href="#" data-scroll-goto="0">Back to top</a>
 </footer>

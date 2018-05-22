@@ -1,9 +1,17 @@
 {{ define "main" }}
 
-        <section>
-            <div>
-                {{ .Content }}
-            </div>
-        </section>
+    <section>
+        <div>
+            {{ range .Data.Pages }}
+                <article>
+                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                    <div>
+                    {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} · {{ .ReadingTime }} minute read
+                    </div>
+                </article>
+            {{ end }}
+        </div>
+    </section>
+    
         
 {{end}}

@@ -3,11 +3,18 @@
   <head>
     {{ block "head" . }}{{ partial "head.html" . }}{{end}}
   </head>
-  <body>
-
+  {{if .IsHome}}
+    <body class="home">
+  {{else}}
+    <body>
+  {{ end }}
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+  
     {{ block "nav" . }}{{ partial "nav.html" . }}{{end}}
 
-    {{ block "main" . }}{{end}}
+    <main id="content" class="content">
+        {{ block "main" . }}{{end}}
+    </main>
 
     {{ block "footer" . }}{{ partial "footer.html" . }}{{end}}
 
