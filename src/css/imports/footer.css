@@ -3,8 +3,16 @@ Footer
 --------------------------------------------------------------*/
 
 footer {
-  display: flex;
-  justify-content: space-between;
+  @media screen and (min-width: 350px) {
+    display: flex;
+    justify-content: space-between;
+  }
+  & div:not(:first-child) {
+    padding-top: 1em;
+    @media screen and (min-width: 350px) {
+      padding-top: 0;
+    }
+  }
 }
 
 .icons {
@@ -21,4 +29,10 @@ footer {
 
 .icons a:first-child {
   padding: 0 0.5em 0 0;
+}
+
+.copyright {
+  & p {
+    padding: 0;
+  }
 }

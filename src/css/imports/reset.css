@@ -2,14 +2,14 @@
   Define your resets here or use something like Normalize.css if you like
  */
 * {
-  box-sizing: border-box;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 html,
 body{
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }

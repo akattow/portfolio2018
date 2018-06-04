@@ -3,123 +3,20 @@ Home
 --------------------------------------------------------------*/
 
 .home .screen-reader-text:matches (:hover, :active, :focus) {
-  color: white;
+    color: white;
 }
 
 .home .content {
-  display: flex;
-  padding-top: 20vh;
+    display: flex;
+    padding-top: 20vh;
 }
 
 .hello {
-  & h2, & h3 {
-    padding: 0;
-  }
+    & h2, & h3 {
+        padding: 0;
+    }
 }
 
-/* .hero {
-  display: flex;
-  margin: 0 auto;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  max-width: 1000px;
+h2 {
+    font-family: var(--font__display);
 }
-
-.hero-top {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  height: 50vh;
-}
-
-.title {
-  font-size: 28px;
-  color: #137682;
-  font-weight: 400;
-}
-
-.subtitle {
-  margin: 1em auto;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 400;
-  color: #505A65;
-  font-weight: 300;
-  max-width: 600px;
-}
-
-.caret {
-    animation: blink .7s infinite;
-    opacity: 1;
-    color: #137682;
-}
-
-@keyframes blink {
-  0% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-.quicklinks {
-  margin: 0 auto;
-  text-align: center;
-  justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-}
-
-.quicklinks a:first-child {
-  padding: 4px 10px 4px 0;
-}
-
-.quicklinks a {
-  padding: 4px 10px;
-  color: #008593;
-}
-
-.quicklinks a:hover {
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
-  color: #5A54AF;
-}
-
-
-.hero-bottom p {
-  color: #929292;
-  font-size: 16px;
-  color: #505A65;
-  letter-spacing: 0;
-  line-height: 1.8em;
-}
-
-.hero-bottom em {
-  font-style: normal !important;
-}
-
-.hero-bottom p a {
-  color: #008593;
-  text-decoration: underline;
-}
-.hero-bottom p a:hover {
-  color: #5A54AF;
-}
-
-
-@media all and (max-width:980px) {
-  .hero-bottom {
-    width: 100%;
-    margin-top: 30px;
-  }
-  .icons {
-    width: 100%;
-  }
-  .process-item {
-    max-width: 45%;
-  }
-} */

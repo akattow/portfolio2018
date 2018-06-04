@@ -1,20 +1,20 @@
 html, body {
-  height: 100%;
+    height: 100%;
 }
 
 html {
-  height: 100%;
+    height: 100%;
 }
 body {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 .nav {
 	padding: 1em;
 }
 .content {
-  padding: 1em;
+    padding: 1em;
 }
 .footer {
 	padding: 1em;
@@ -28,7 +28,7 @@ button,
 input,
 select,
 textarea {
-  font-family: var(--font__body);
+    font-family: var(--font__body);
 	line-height: 1.5;
 }
 
@@ -45,11 +45,14 @@ p {
 }
 
 a {
-  text-decoration: none;
-  color: #008593;
-  &:hover {
-    cursor: pointer;
-    color: #5A54AF;
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(to top, transparent 25%),
+                linear-gradient(to top,darkturquoise 25%,transparent 25%);
+    &:hover {
+        cursor: pointer;
+		    color: white;
+		    background: slateblue;
   }
 }
 

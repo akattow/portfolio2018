@@ -16,3 +16,10 @@ I love developing digital experiences that help people explore, learn, and grow.
 Technical toolset: HTML, CSS/Sass/Less, JavaScript, jQuery, Adapt Learning Framework, Hugo, and Bootstrap.
 
 Creative toolset: Adobe Creative Suite, including Adobe XD, Illustrator, Photoshop, InDesign, and Adobe Premier. Experience using Sketch, Figma, and Axure for wireframing, design, and prototyping.
+
+<div>
+You can <a href="mailto:{{ .Site.Params.Email }}">email me</a>, follow me on 
+        <a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="blank">Twitter</a>, find me on 
+        <a href="https://www.linkedin.com/in/{{ .Site.Params.LinkedIn }}" target="blank">LinkedIn</a>, or download my 
+        <a href="{{ .Site.BaseURL }}{{ .Site.Params.Resume }}" target="blank" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'download'});">resume</a>.
+</div>
