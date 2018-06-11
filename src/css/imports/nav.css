@@ -1,8 +1,9 @@
 /*--------------------------------------------------------------
 Top Nav
 --------------------------------------------------------------*/
-
 nav {
+    /* max-width: 800px;
+    margin: 0 auto; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,11 +12,13 @@ nav {
         padding: 4px 4px 0 4px;
     }
     & ul {
+        flex: 1 0 auto;
         list-style: none;
         -webkit-padding-start: 0;
         display: flex; 
         justify-content: flex-end;
         & li {
+            flex: 0 0 auto;
             padding: 0 0.5em;
             @media screen and (min-width: 350px) {
                 padding: 0 1em;

@@ -1,13 +1,13 @@
 {{ define "main" }}
 
-    <section>
+    <section class="blog">
         <div>
             {{ range .Data.Pages }}
                 <article>
                     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                    <div>
+                    <small>
                     {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} · {{ .ReadingTime }} minute read
-                    </div>
+                    </small>
                 </article>
             {{ end }}
         </div>

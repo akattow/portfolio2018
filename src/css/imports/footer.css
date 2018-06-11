@@ -30,9 +30,3 @@ footer {
 .icons a:first-child {
   padding: 0 0.5em 0 0;
 }
-
-.copyright {
-  & p {
-    padding: 0;
-  }
-}
