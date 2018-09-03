@@ -5,7 +5,7 @@ description: "About Kat — front-end developer for web and online learning"
 
 # about me
 
-**Pardon the dust! I am migrating from my first hardcoded portfolio site to a new site built using Hugo. There will be frequent updates and changes to this site throughout June 2018. Check back soon!**
+**Pardon the dust! I have migrated from my first hardcoded portfolio site to a new site built using Hugo. Legit blog posts forthcoming. Check back soon!**
 
 I am currently developing responsive e-learning and designing interactive and blended learning experiences at the International Foundation for Employee Benefit Plans.
 

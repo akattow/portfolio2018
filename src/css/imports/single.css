@@ -1,21 +1,29 @@
 /*--------------------------------------------------------------
 Single page layout
 --------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+Contact section
+--------------------------------------------------------------*/
 body:not(.home) main section .contact {
-    margin: 2em;
-    padding: 1em;
-    text-align: center;
+    margin: 2em 0;
+    padding: 1em 2em;
+    @media (--medium-screen) {
+        padding: 1em 4em;
+    }
+
     color: white;
-    background: midnightblue;
-    background: linear-gradient(45deg, midnightblue 0%, #009699);
+    background: var(--darkblue);
+    background: linear-gradient(45deg, var(--darkblue) 0%, #009699);
     & a {
         color: white;
         background: linear-gradient(to top, transparent 25%),
-                    linear-gradient(to top,#d2ff4d 25%,transparent 25%);
+                    linear-gradient(to top,var(--yellow) 20%,transparent 25%);
         &:hover {
             cursor: pointer;
                 color: black;
-                background: #d2ff4d;
+                background: var(--yellow);
         }
     }
 }

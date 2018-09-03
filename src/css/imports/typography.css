@@ -1,0 +1,49 @@
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+    font-family: var(--font__body);
+	line-height: 1.5;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 1em 0;
+}
+
+h1, h2, h3 {
+    font-family: var(--font__display);
+}
+
+p {
+	margin: 0;
+	padding: 1em 0;
+}
+
+tt, code, kbd, samp {
+    font-family: var(--font__code);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(to top, transparent 25%),
+                linear-gradient(to top,var(--teal) 25%,transparent 25%);
+    &:hover {
+        cursor: pointer;
+		    color: white;
+		    background: var(--slate);
+  }
+}
+
+pre, xmp, plaintext, listing {
+    white-space: pre-wrap;
+}
+
+::selection {
+  background: var(--teal);
+}

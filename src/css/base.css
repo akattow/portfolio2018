@@ -1,18 +1,24 @@
-/*
-  You can use import statements to include partials:
- */
 @import "imports/reset.css";
 @import "imports/start.css";
+@import "imports/grid.css";
+@import "imports/typography.css";
 @import "imports/nav.css";
 @import "imports/home.css";
 @import "imports/single.css";
 @import "imports/list.css";
 @import "imports/footer.css";
 
-
 :root {
-  /* fonts */
-  --font__code: 'Inconsolata', 'Consolas', monospace;
-  --font__display: 'Montserrat', 'Lucida Sans Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Geneva', 'Arial', sans-serif;
-  --font__body: 'Nunito Sans', 'Lucida Sans Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Geneva', 'Arial', sans-serif;
+    --font__code: 'Inconsolata', 'Consolas', monospace;
+    --font__display: 'Montserrat', 'Lucida Sans Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Geneva', 'Arial', sans-serif;
+    --font__body: 'Nunito Sans', 'Lucida Sans Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Geneva', 'Arial', sans-serif;
+    
+    --teal:darkturquoise;
+    --slate:#2e2ed1;
+    --yellow:#d2ff4d;
+    --darkblue: midnightblue;
 }
+
+@custom-media --only-medium-screen (width >= 500px) and (width <= 1200px);
+@custom-media --medium-screen (width >= 500px);
+@custom-media --large-screen (width >= 120px);

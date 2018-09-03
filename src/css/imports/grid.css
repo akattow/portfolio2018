@@ -1,0 +1,34 @@
+/*--------------------------------------------------------------
+Grid
+--------------------------------------------------------------*/
+body:not(.home) {
+    & main section {
+        max-width: 800px;
+        margin: 0 auto 30px;
+        padding: 0;
+        display: grid;
+
+        grid-template-columns:
+        [full-start] 2em
+        [main-start] auto
+        [main-end] 2em
+        [full-end];
+        
+        @media (--medium-screen) {
+            grid-template-columns:
+            [full-start] 4em
+            [main-start] auto
+            [main-end] 4em
+            [full-end];           
+        }
+
+        
+        & *:not(.full) {
+            grid-column: main;
+        }
+
+        & .full {
+            grid-column: full;
+        }
+    }
+}
