@@ -8,6 +8,7 @@
 @import "imports/list.css";
 @import "imports/footer.css";
 
+
 :root {
     --font__code: 'Inconsolata', 'Consolas', monospace;
     --font__display: 'Montserrat', 'Lucida Sans Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Geneva', 'Arial', sans-serif;
@@ -17,6 +18,7 @@
     --slate:#2e2ed1;
     --yellow:#d2ff4d;
     --darkblue: midnightblue;
+    --gray: #f7f7f7;
 }
 
 @custom-media --only-medium-screen (width >= 500px) and (width <= 1200px);

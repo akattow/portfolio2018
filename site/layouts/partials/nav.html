@@ -6,7 +6,7 @@
     </a>
     <ul>
         {{ range .Site.Menus.main }}
-            <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+            <li><a class="navLink" href="{{.URL}}"> {{ .Name }} </a></li>
         {{end}}
     </ul>
 </nav>

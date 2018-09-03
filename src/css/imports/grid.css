@@ -1,23 +1,25 @@
 /*--------------------------------------------------------------
 Grid
 --------------------------------------------------------------*/
+
 body:not(.home) {
     & main section {
         max-width: 800px;
+        min-width: 0;
         margin: 0 auto 30px;
         padding: 0;
         display: grid;
 
         grid-template-columns:
         [full-start] 2em
-        [main-start] auto
+        [main-start] minmax(0, auto)
         [main-end] 2em
         [full-end];
         
         @media (--medium-screen) {
             grid-template-columns:
             [full-start] 4em
-            [main-start] auto
+            [main-start] minmax(0, auto)
             [main-end] 4em
             [full-end];           
         }
@@ -31,4 +33,9 @@ body:not(.home) {
             grid-column: full;
         }
     }
+}
+
+// Remove grid overflow issue with pre
+.pre-fix {
+    min-width: 0;
 }
