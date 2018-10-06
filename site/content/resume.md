@@ -4,14 +4,7 @@ linktitle: "Resume"
 title: "Resume"
 class: "resume"
 ---
-{{% section id="cv-top" %}}
-## Kat Tow
-(+1) 608 931 4465
-
-kattow88@gmail.com
-
-kattow.com
-{{% /section %}}
+If you prefer, you can <a href="/ResumeTow.pdf">download the PDF</a>.
 
 {{% section id="cv-about" %}}
 ## About Me
