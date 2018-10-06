@@ -1,15 +1,22 @@
 {{ define "main" }}
 
-    <section class="case-studies">
+    <section class="work">
         <div>
             {{ range .Data.Pages }}
                 <article>
-                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                    <small>
-                    {{ .Params.subtitle }}
-                    </small>
+                    <a href="{{ .Permalink }}" class="full">
+                        <!-- <img src="/img/{{ .Params.case_feature_img }}" alt=""> -->
+                        <h1>{{ .Title }}</h1>
+                        <h2>{{ .Params.subtitle }}</h2>
+                    </a>
                 </article>
             {{ end }}
+            <article>
+                <a href="https://codepen.io/kattow88" class="full">
+                    <h1>Codepen</h1>
+                    <h2>Warning: these are old pens!</h2>    
+                </a>
+            </article>
         </div>
     </section>
     

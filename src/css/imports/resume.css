@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------
+Resume page
+--------------------------------------------------------------*/
+
+.resume {
+    & p {
+        padding: 0.25em 0;
+    }
+    & h2 {
+        padding: 2em 0 .25em;
+        background: linear-gradient(to top, transparent 12%),
+            linear-gradient(to top,var(--teal) 12%,transparent 12%);
+
+    }
+    & h3 {
+        padding: 1em 0 .25em;
+        color: var(--slate);
+    }
+    & h4 {
+        padding: 0.25em 0;
+        font-size: 1.1em;
+        line-height: 1em;
+    }
+    & ul {
+        margin: 0;
+    }
+}
