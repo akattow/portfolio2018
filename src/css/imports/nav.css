@@ -5,16 +5,23 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    & figure {
+    /* & figure {
         margin: 0;
         padding: 4px 4px 0 4px;
-    }
+    } */
     & ul {
         flex: 1 0 auto;
         list-style: none;
         -webkit-padding-start: 0;
         display: flex; 
         justify-content: flex-end;
+        & :first-child {
+            flex: 1 0 auto;
+            padding-left: 0;
+        }
+        & :last-child {
+            padding-right: 0;
+        }
         & li {
             flex: 0 0 auto;
             padding: 0 0.5em;
@@ -37,13 +44,19 @@ nav {
             & .current-page {
                 background: linear-gradient(to top, transparent 25%),
                             linear-gradient(to top,var(--slate) 25%,transparent 25%);
-                &:before {
-                    content: ">";
-                }
-                &:after {
-                    content: "<";
-                }
             }
+        }
+    }
+}
+
+.home {
+    & nav ul li a.current-page {
+        background: linear-gradient(to top, transparent 25%),
+                    linear-gradient(to top,var(--teal) 25%,transparent 25%);
+        &:hover {
+            cursor: pointer;
+                color: white;
+                background: var(--slate);
         }
     }
 }

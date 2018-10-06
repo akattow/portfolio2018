@@ -1,6 +1,6 @@
 $(function () {
   $(".element").typed({
-    strings: ["front-end developer", "learning and user experience designer", "pug enthusiast"],
+    strings: ["user experience designer", "front-end developer", "pug enthusiast"],
     typeSpeed: 0,
     backDelay: 800,
     loop: true,

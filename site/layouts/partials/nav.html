@@ -1,9 +1,9 @@
 <nav class="nav">
-    <a href="/">
+    <!-- <a href="/">
         <figure class="logo">
-            <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}">
+            <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="home icon">
         </figure>
-    </a>
+    </a> -->
     <ul>
         {{ range .Site.Menus.main }}
             <li><a class="navLink" href="{{.URL}}"> {{ .Name }} </a></li>
