@@ -1,34 +1,8 @@
-<footer class="footer">
-    <div class="icons">
-        {{ if isset .Site.Params "email" }}
-        <a href="mailto:{{ .Site.Params.Email }}">
-            <i class="far fa-envelope"></i>
-        </a>
-        {{ end }}
-        {{ if isset .Site.Params "twitter" }}
-        <a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="blank">
-            <i class="fab fa-twitter"></i>
-        </a>
-        {{ end }}
-        {{ if isset .Site.Params "linkedin" }}
-        <a href="https://www.linkedin.com/in/{{ .Site.Params.LinkedIn }}" target="blank">
-            <i class="fab fa-linkedin-in"></i>
-        </a>
-        {{ end }}
-        {{ if isset .Site.Params "resume" }}
-        <a href="{{ .Site.BaseURL }}{{ .Site.Params.Resume }}" target="blank" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'download'});">
-            <i class="far fa-file-alt"></i>
-        </a>
-        {{ end }}
-    </div>
-
-    <div class="copyright">
-        <p>&copy;
-            <script type="text/javascript">
-                document.write(new Date().getFullYear());
-            </script>
-            Kat Tow | Built with <a href="https://gohugo.io/">Hugo</a> and <a href="https://www.netlify.com/">Netlify</a>.
-        </p>
-    </div>
-
+<footer class="copyright full">
+    <p>&copy;
+        <script type="text/javascript">
+            document.write(new Date().getFullYear());
+        </script>
+        Kat Tow | Built with <a href="https://gohugo.io/">Hugo</a> and <a href="https://www.netlify.com/">Netlify</a>.
+    </p>
 </footer>

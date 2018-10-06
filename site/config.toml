@@ -25,12 +25,12 @@ googleAnalytics = "UA-XXXXXXXX-Y"
     url  = "/about"
     weight = 2
 
-# [[menu.main]]
-#     name = "my work"
-#     url  = "/work"
-#     weight = 2
+[[menu.main]]
+    name = "my work"
+    url  = "/work"
+    weight = 2
 
 [[menu.main]]
-    name = "blog"
-    url  = "/blog"
+    name = "resume"
+    url  = "/cv"
     weight = 3

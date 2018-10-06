@@ -1,27 +1,33 @@
 /*--------------------------------------------------------------
 List page layout
 --------------------------------------------------------------*/
-body:not(.home) main section.blog {
-    margin-top: 3em;
-}
-
-.blog article {
-    padding-bottom: 3em;
-    /* background: linear-gradient(to right, transparent 5%),
-                linear-gradient(to right,#2e2ed1 5%,transparent 5%); */
-    padding-left: 8%;
-
-    & h2 {
-        padding: 0;
+body:not(.home) main section {
+    & .blog, .case-studies {
+        margin-top: 3em;
     }
-    & a {
-        background: transparent;
-        &:hover {
-            background: darkturquoise;
-        }
-    }    
 }
 
-.blog article:last-child {
+.blog, .case-studies {
+    & article {
+        padding-bottom: 3em;
+        /* background: linear-gradient(to right, transparent 5%),
+                    linear-gradient(to right,#2e2ed1 5%,transparent 5%); */
+        padding-left: 8%;
+
+        & h2 {
+            padding: 0;
+        }
+        & a {
+            background: transparent;
+            &:hover {
+                background: darkturquoise;
+            }
+        }
+    }
+}
+
+.blog, .case-studies {
+    & article:last-child {
     padding-bottom: 0;
+    }
 }

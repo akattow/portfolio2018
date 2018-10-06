@@ -11,10 +11,12 @@ body:not(.home) main article .contact {
     @media (--medium-screen) {
         padding: 1em 4em;
     }
-
     color: white;
     background: var(--darkblue);
     background: linear-gradient(45deg, var(--darkblue) 0%, #009699);
+    & p {
+        padding: .75em;
+    }
     & a {
         color: white;
         background: linear-gradient(to top, transparent 25%),

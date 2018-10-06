@@ -10,6 +10,19 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+
+img {
+    width: 100%;
+}
+figure {
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+    @media (--medium-screen) {
+        margin-inline-start: 3em;
+        margin-inline-end: 3em;
+    }
+}
+
 .nav {
 	padding: 1em;
 }

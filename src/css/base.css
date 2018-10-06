@@ -1,12 +1,15 @@
 @import "imports/reset.css";
 @import "imports/start.css";
-@import "imports/grid.css";
 @import "imports/typography.css";
 @import "imports/nav.css";
-@import "imports/home.css";
-@import "imports/single.css";
-@import "imports/list.css";
 @import "imports/footer.css";
+@import "imports/list.css";
+@import "imports/single.css";
+@import "imports/home.css";
+@import "imports/grid.css";
+@import "imports/flex.css";
+@import "imports/work.css";
+
 
 :root {
     --font__code: 'Inconsolata', 'Consolas', monospace;

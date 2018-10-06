@@ -1,0 +1,26 @@
+/*--------------------------------------------------------------
+Case study pages
+--------------------------------------------------------------*/
+.case-study .page-header {
+        & h1, & h2 {
+        padding: 0;
+    }
+    & .title {
+        padding-top: 1em;
+    }
+    & img {
+        width: 100%;
+        padding: 2em 0 0;
+    }
+}
+
+.case-study {
+    & h3 {
+        padding-top: 1em;
+        background: linear-gradient(to top, transparent 12%),
+            linear-gradient(to top,var(--teal) 12%,transparent 12%);
+    }
+    & h4 {
+        color: var(--slate);
+    }
+}
