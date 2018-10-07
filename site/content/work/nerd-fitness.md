@@ -3,7 +3,7 @@ author: "Kat Tow"
 linktitle: "Nerd Fitness"
 title: "Nerd Fitness"
 subtitle: "App research & design"
-weight: 10
+weight: 11
 case_feature_img: "nerdfitness/NF3personas.png"
 ---
 {{% section id="nf-top" %}}

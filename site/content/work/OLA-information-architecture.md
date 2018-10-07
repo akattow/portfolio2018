@@ -3,7 +3,7 @@ author: "Kat Tow"
 linktitle: "Online Learning Association"
 title: "Online Learning Association"
 subtitle: "IA and UX"
-weight: 11
+weight: 10
 ---
 {{% section id="ola-top"%}}
 ### Introduction
