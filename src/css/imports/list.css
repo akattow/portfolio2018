@@ -1,8 +1,8 @@
 /*--------------------------------------------------------------
 List page layout
 --------------------------------------------------------------*/
-body:not(.home) main section {
-    & .case-studies {
+body:not(.home) main {
+    & .list {
         margin-top: 3em;
     }
 }
