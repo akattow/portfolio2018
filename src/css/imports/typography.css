@@ -63,9 +63,14 @@ a {
         cursor: pointer;
 		    color: white;
 		    background: var(--slate);
-  }
+    }
 }
 
+*:focus {
+    outline: var(--teal) solid 4px;
+    outline-offset: 2px;
+}
+ 
 pre, xmp, plaintext, listing {
     display: block;
     word-wrap: break-word;

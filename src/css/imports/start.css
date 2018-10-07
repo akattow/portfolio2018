@@ -67,3 +67,9 @@ Accessibility
 	width: auto;
 	z-index: 100000; /* Above WP toolbar */
 }
+
+/* Style for visible skip link on focus */
+.skip-link:focus {
+    background: var(--slate);
+    color: white;
+}
