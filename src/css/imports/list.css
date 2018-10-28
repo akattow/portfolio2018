@@ -1,31 +1,39 @@
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 List page layout
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
+
 body:not(.home) main {
+
     & .list {
         margin-top: 3em;
     }
 }
 
 .work {
+
     & article {
         padding-bottom: 3em;
+
         & a {
             background: transparent;
             background: linear-gradient(to right, transparent 5%),
-                linear-gradient(to right, var(--slate) 5%,transparent 5%);
+                linear-gradient(to right, var(--slate) 5%, transparent 5%);
+
             &:hover {
                 background: var(--teal);
             }
         }
-        & h1, & h2 {
+
+        & h1,
+        & h2 {
             padding: 0 0 0 8%;
         }
     }
 }
 
 .case-studies {
+
     & article:last-child {
-    padding-bottom: 0;
+        padding-bottom: 0;
     }
 }

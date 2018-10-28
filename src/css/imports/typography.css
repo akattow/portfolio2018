@@ -1,56 +1,65 @@
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 Typography
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
+
 body,
 button,
 input,
 select,
 textarea {
     font-family: var(--font__body);
-	line-height: 1.5;
+    line-height: 1.5;
 }
 
-h1, h2, h3 {
-	margin: 0;
-	padding: .5em 0;
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0.5em 0;
+    font-family: var(--font__display);
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 1.5em 0 0;
-}
-
-h1, h2, h3 {
-    font-family: var(--font__display);
 }
 
 h1 {
     font-size: 2em;
 }
+
 h2 {
     font-size: 1.5em;
 }
+
 h3 {
     font-size: 1.35em;
 }
+
 h4 {
     font-size: 1.25em;
 }
+
 h5 {
     font-size: 1.15em;
 }
 
 p {
-	margin: 0;
-	padding: .75em 0;
+    margin: 0;
+    padding: 0.75em 0;
 }
 
 figcaption p {
-    font-size: .85em;
+    font-size: 0.85em;
     padding: 0;
 }
 
-tt, code, kbd, samp {
+tt,
+code,
+kbd,
+samp {
     font-family: var(--font__code);
 }
 
@@ -58,11 +67,12 @@ a {
     text-decoration: none;
     color: black;
     background: linear-gradient(to top, transparent 25%),
-                linear-gradient(to top,var(--teal) 25%,transparent 25%);
+        linear-gradient(to top, var(--teal) 25%, transparent 25%);
+
     &:hover {
         cursor: pointer;
-		    color: white;
-		    background: var(--slate);
+        color: white;
+        background: var(--slate);
     }
 }
 
@@ -70,8 +80,11 @@ a {
     outline: var(--teal) solid 4px;
     outline-offset: 2px;
 }
- 
-pre, xmp, plaintext, listing {
+
+pre,
+xmp,
+plaintext,
+listing {
     display: block;
     word-wrap: break-word;
     overflow: auto;
@@ -84,6 +97,7 @@ pre {
     background-color: var(--gray);
     font-size: 85%;
     line-height: 1.45;
+
     & code {
         display: block;
         word-break: normal;
@@ -93,5 +107,5 @@ pre {
 }
 
 ::selection {
-  background: var(--teal);
+    background: var(--teal);
 }

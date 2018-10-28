@@ -1,32 +1,36 @@
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 Footer
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 footer {
-  @media screen and (min-width: 350px) {
-    display: flex;
-    justify-content: space-between;
-  }
-  & div:not(:first-child) {
-    padding-top: 1em;
     @media screen and (min-width: 350px) {
-      padding-top: 0;
+        display: flex;
+        justify-content: space-between;
     }
-  }
+
+    & div:not(:first-child) {
+        padding-top: 1em;
+
+        @media screen and (min-width: 350px) {
+            padding-top: 0;
+        }
+    }
 }
 
 .icons {
-  display: flex;
-  & a {
-    padding: 0 0.5em;
-    color: #008593;
-    text-decoration: none;
-    & :hover {
-      color: #5A54AF;
+    display: flex;
+
+    & a {
+        padding: 0 0.5em;
+        color: #008593;
+        text-decoration: none;
+
+        & :hover {
+            color: #5a54af;
+        }
     }
-  }
 }
 
 .icons a:first-child {
-  padding: 0 0.5em 0 0;
+    padding: 0 0.5em 0 0;
 }

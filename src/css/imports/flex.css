@@ -1,22 +1,16 @@
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 Flex
---------------------------------------------------------------*/
-.flex-container {
-    /* display: block;
-    @media (--medium-screen) { */
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    /* } */
-
-}
+-------------------------------------------------------------- */
 
 .flex-container {
+
     & img {
         width: auto;
         max-height: 200px;
     }
+
     @media (--medium-screen) {
+
         & .flex-figure {
             min-width: 0;
             flex: 0 1 auto;
@@ -24,6 +18,7 @@ Flex
             margin-left: 0;
             margin-right: 0;
             text-align: center;
+
             & img {
                 width: auto;
                 max-width: 100%;

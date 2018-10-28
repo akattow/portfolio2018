@@ -1,14 +1,17 @@
-html, body {
+html,
+body {
     height: 100%;
 }
 
 html {
     height: 100%;
 }
+
 body {
     min-height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;
+
     @media (--medium-screen) {
         margin: 0 2em;
     }
@@ -17,9 +20,11 @@ body {
 img {
     width: 100%;
 }
+
 figure {
     margin-inline-start: 1em;
     margin-inline-end: 1em;
+
     @media (--medium-screen) {
         margin-inline-start: 3em;
         margin-inline-end: 3em;
@@ -27,48 +32,52 @@ figure {
 }
 
 .nav {
-	padding: 1em;
+    padding: 1em;
 }
+
 .content {
     padding: 1em;
 }
+
 .footer {
-	padding: 1em;
+    padding: 1em;
 }
 
-
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 Accessibility
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
+
 /* Text meant only for screen readers */
+
 .screen-reader-text {
-	clip: rect(1px, 1px, 1px, 1px);
-	position: absolute !important;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
 }
 
 .screen-reader-text:hover,
 .screen-reader-text:active,
 .screen-reader-text:focus {
-	background-color: transparent;
-	clip: auto !important;
-	color: #5A54AF;
-	display: block;
-	font-size: 14px;
-	font-weight: bold;
-	height: auto;
-	left: 5px;
-	line-height: normal;
-	padding: 15px 23px 14px;
-	text-decoration: none;
-	top: 5px;
-	width: auto;
-	z-index: 100000; /* Above WP toolbar */
+    background-color: transparent;
+    clip: auto !important;
+    color: #5a54af;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar */
 }
 
 /* Style for visible skip link on focus */
+
 .skip-link:focus {
     background: var(--slate);
     color: white;
