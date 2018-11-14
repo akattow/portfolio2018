@@ -8,11 +8,11 @@ class: "about"
 
 I am currently developing responsive e-learning and designing interactive and blended learning experiences at the International Foundation for Employee Benefit Plans. I am also a graduate student at the University of Wisconsin - Milwaukee studying human-computer interaction.
 
-I'm a left-brain/right-brain hybrid type. I'm also a self-taught user experience designer and front-end developer.
+I'm a left-brain/right-brain hybrid type. I'm also a self-taught front-end developer and UX designer.
 
-I love developing digital experiences that help people explore, learn, and grow. Now, I use my expertise in user-centered design and development to create meaningful learning and educational products.
+I love developing digital experiences that help people explore, learn, and grow. Now, I use my expertise in user-centered design and front-end development to create meaningful learning and educational products.
 
-Technical toolset: HTML, CSS/Sass/Less, JavaScript, jQuery, Adapt Learning Framework, Hugo, and Bootstrap.
+Technical toolset: HTML, CSS/Sass/Less, JavaScript, jQuery, React/Redux, Adapt Learning Framework, Hugo, and Bootstrap.
 
 Creative toolset: Adobe Creative Suite, including Adobe XD, Illustrator, Photoshop, InDesign, and Adobe Premier. Experience using Sketch, Figma, and Axure for wireframing, design, and prototyping.
 
