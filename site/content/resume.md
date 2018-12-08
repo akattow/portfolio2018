@@ -80,11 +80,11 @@ I’m a left-brain/right-brain hybrid type. I’m front-end developer with an en
 
 <br>
 #### Development Skills
-JavaScript, React, Sass, Less, PostCSS, CSS Grid, Flexbox, HTML5, CSS3
+JavaScript, React, C#, .NET Core MVC, Less, PostCSS, Sass, CSS Grid, Flexbox, HTML5, CSS3
 <br>
 <br>
 #### Design Skills
-Wireframing, prototyping, information architecture, interaction design, UI design
+Information architecture, prototyping, wireframing, interaction design
 <br>
 <br>
 #### Tools

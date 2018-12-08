@@ -2,6 +2,11 @@
 
     <section class="work list">
         <div>
+            <article>
+                <a href="https://codepen.io/kattow88" class="full">
+                    <h1>Codepen</h1>
+                </a>
+            </article>
             {{ range .Data.Pages }}
                 <article>
                     <a href="{{ .Permalink }}" class="full">
@@ -11,12 +16,6 @@
                     </a>
                 </article>
             {{ end }}
-            <article>
-                <a href="https://codepen.io/kattow88" class="full">
-                    <h1>Codepen</h1>
-                    <h2>Warning: these are old pens!</h2>    
-                </a>
-            </article>
         </div>
     </section>
     
