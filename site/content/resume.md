@@ -12,7 +12,7 @@ If you prefer, you can <a href="/ResumeTow.pdf">download the PDF</a>.
 ## About Me
 
 <br>
-I’m a left-brain/right-brain hybrid type. I’m front-end developer with an endless appetite for new knowledge. I have over 5 years of professional web design experience with over 2 years of experience in front-end development.
+I’m a front-end developer with an endless appetite for new knowledge. I have over 5 years of professional web design experience with over a year of experience in front-end development.
 {{% /section %}}
 
 {{% section id="cv-experience" %}}
@@ -34,8 +34,7 @@ I’m a left-brain/right-brain hybrid type. I’m front-end developer with an en
 
 **Accomplishments**
 
-- Proposed, and led the transition from paginated, unresponsive courses (Lectora) to fully responsive & interactive courses (Adapt) improving usability, understandability, and accessibility. **Samples available upon request.**
-- Designed & developed custom LESS for online courses
+- Proposed, and led the transition from paginated, unresponsive courses (Lectora) to fully responsive & interactive courses (Adapt) that can be developed rapidly and iteratively. **Samples available upon request.**
 - Developed new design standards for online courses
   <br>
   <br>
@@ -48,9 +47,9 @@ I’m a left-brain/right-brain hybrid type. I’m front-end developer with an en
 
 **Responsibilities**
 
-- Created designs from concept to final proof for print, web, & social
-- Built data-driven user personas & wrote user stories
 - Front-end design & development in WordPress
+- Built data-driven user personas & wrote user stories
+- Created designs from concept to final proof for print, web, & social
   <br>
   <br>
 
@@ -62,7 +61,7 @@ I’m a left-brain/right-brain hybrid type. I’m front-end developer with an en
 
 **Responsibilities**
 
-- Managed company website
+- Built and designed company website
 - Managed communications, audience development, & marketing
 - Coordinated content, design, & executuion of company communications across team & vendors
 - Trained team on website & social media management
@@ -80,7 +79,7 @@ I’m a left-brain/right-brain hybrid type. I’m front-end developer with an en
 
 <br>
 #### Development Skills
-JavaScript, React, C#, .NET Core MVC, Less, PostCSS, Sass, CSS Grid, Flexbox, HTML5, CSS3
+JavaScript, jQuery, React, C# and .NET, SQL, Less and PostCSS, CSS Grid and Flexbox, HTML5, CSS3
 <br>
 <br>
 #### Design Skills
@@ -94,6 +93,12 @@ Visual Studio, VS Code, Github, Adobe XD, Illustrator, Microsoft Office
 {{% section id="cv-education" %}}
 
 ## Education
+
+### Graduate classes
+
+#### UW Milwaukee
+
+Mathmatical & Computing Fundamentals, Survey of Information Security, Information Architecture, Introduction to Data Science, Software Development in Python
 
 <!-- ### Human-Computer Interaction
 

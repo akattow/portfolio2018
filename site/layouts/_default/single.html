@@ -4,7 +4,9 @@
             <div class="contact full">
                     <p>You can <a href="mailto:{{ .Site.Params.Email }}">email me</a>, follow me on 
                     <a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="blank">Twitter</a>, or find me on 
-                    <a href="https://www.linkedin.com/in/{{ .Site.Params.LinkedIn }}" target="blank">LinkedIn</a>.
+                    <a href="https://www.linkedin.com/in/{{ .Site.Params.LinkedIn }}" target="blank">LinkedIn</a>. See my work on
+                    <a href="https://www.codepen.io/{{ .Site.Params.Codepen }}" target="blank">Codepen</a> or see snippets on
+                    <a href="https://www.github.com/{{ .Site.Params.Github }}" target="blank">Github</a>.</p>
             </div>
             
             {{ block "footer" . }}{{ partial "footer.html" . }}{{end}}
