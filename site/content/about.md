@@ -1,6 +1,6 @@
 ---
 title: "about me"
-description: "About Kat — front-end developer for web and online learning"
+description: "About Kat"
 class: "about"
 ---
 
@@ -10,7 +10,7 @@ class: "about"
 
 I am currently developing responsive e-learning and designing interactive and blended learning experiences at the International Foundation for Employee Benefit Plans.
 
-I'm a self-taught front-end developer with an insatiable appetite for learning new technologies.
+I'm a self-taught front-end developer and UX designer with an insatiable appetite for learning new technologies.
 
 Languages: JavaScript, jQuery, React, CSS3/Less/PostCss, HTML5, C#, .NET, SQL, Python.
 

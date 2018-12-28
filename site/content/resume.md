@@ -12,7 +12,7 @@ If you prefer, you can <a href="/ResumeTow.pdf">download the PDF</a>.
 ## About Me
 
 <br>
-I’m a front-end developer with an endless appetite for new knowledge. I have over 5 years of professional web design experience with over a year of experience in front-end development.
+I’m a front-end developer and UX designer with an endless appetite for new knowledge. I have over 5 years of professional design experience with over a year of experience in front-end development.
 {{% /section %}}
 
 {{% section id="cv-experience" %}}
@@ -83,11 +83,11 @@ JavaScript, jQuery, React, C# and .NET, SQL, Less and PostCSS, CSS Grid and Flex
 <br>
 <br>
 #### Design Skills
-Information architecture, prototyping, wireframing, interaction design
+User experience design, UI design, information architecture, user personas, prototyping, wireframing, interaction design
 <br>
 <br>
 #### Tools
-Visual Studio, VS Code, Github, Adobe XD, Illustrator, Microsoft Office
+VS Code, Visual Studio, Github, Adobe XD, Adobe Illustrator, Microsoft Office
 {{% /section %}}
 
 {{% section id="cv-education" %}}
@@ -106,22 +106,32 @@ Mathmatical & Computing Fundamentals, Survey of Information Security, Informatio
 
 #### September 2017 - present
 
-Part-time student. Expected graduation Spring 2021.
+Part-time student. Expected graduation Spring 2021.-->
 
-### Self-paced learning
+### Self-directed
 
-#### edX, Coursera, IDF, and freeCodeCamp
+#### edX, Coursera, IDF, Pluralsight, and freeCodeCamp
 
 #### September 2016 - present
 
-A brief selection of completed courses:
+A brief selection of completed courses and certificates:
+
+Development:
+
+- C# Fundamentals with Visual Studio 2015
+- ASP.NET Core Fundamentals
+- Building Applications with ASP.NET MVC 4
+- Responsive Design (Certificate)
+- JavaScript Algorithms and Data Structures (Certificate)
+
+Design:
 
 - Principles of Designing for Humans
 - Evaluating Designs with Users
 - UX Design: From Concept to Wireframe
 - User Experience: Research & Prototyping
 
-_Extended list available upon request._ -->
+_Extended list available upon request._
 
 ### Bachelor of Arts
 
